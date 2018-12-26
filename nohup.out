@@ -1,0 +1,221 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.225 s
+[INFO] Finished at: 2018-12-25T13:36:59+07:00
+[INFO] Final Memory: 11M/212M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "spring-boot". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/tran.van.cu/Documents/demo/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/tran.van.cu/Documents/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) @ demo ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-25 13:37:05.197  INFO 21904 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication on framgia0392-pc with PID 21904 (/home/tran.van.cu/Documents/demo/target/classes started by FRAMGIA\tran.van.cu in /home/tran.van.cu/Documents/demo)
+2018-12-25 13:37:05.199  INFO 21904 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-12-25 13:37:05.783  INFO 21904 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2018-12-25 13:37:05.799  INFO 21904 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-25 13:37:05.800  INFO 21904 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 13:37:05.808  INFO 21904 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-12-25 13:37:05.855  INFO 21904 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-25 13:37:05.855  INFO 21904 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 634 ms
+2018-12-25 13:37:06.000  INFO 21904 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 13:37:06.138  INFO 21904 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path ''
+2018-12-25 13:37:06.140  INFO 21904 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.187 seconds (JVM running for 3.499)
+2018-12-25 13:37:15.987  INFO 21904 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/tran.van.cu/Documents/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) @ demo ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-25 13:39:08.153  INFO 22221 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication on framgia0392-pc with PID 22221 (/home/tran.van.cu/Documents/demo/target/classes started by FRAMGIA\tran.van.cu in /home/tran.van.cu/Documents/demo)
+2018-12-25 13:39:08.155  INFO 22221 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-12-25 13:39:08.809  INFO 22221 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2018-12-25 13:39:08.828  INFO 22221 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-25 13:39:08.828  INFO 22221 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 13:39:08.836  INFO 22221 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-12-25 13:39:08.886  INFO 22221 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-25 13:39:08.886  INFO 22221 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 707 ms
+2018-12-25 13:39:09.024  INFO 22221 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 13:39:09.151  INFO 22221 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path ''
+2018-12-25 13:39:09.153  INFO 22221 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.176 seconds (JVM running for 2.979)
+2018-12-25 13:39:16.607  INFO 22221 --- [nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-25 13:39:16.607  INFO 22221 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-25 13:39:16.613  INFO 22221 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2018-12-25 13:39:45.585  INFO 22221 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38.692 s
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/tran.van.cu/Documents/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) @ demo ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-25 13:40:38.847  INFO 22600 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication on framgia0392-pc with PID 22600 (/home/tran.van.cu/Documents/demo/target/classes started by FRAMGIA\tran.van.cu in /home/tran.van.cu/Documents/demo)
+2018-12-25 13:40:38.849  INFO 22600 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-12-25 13:40:39.527  INFO 22600 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2018-12-25 13:40:39.545  INFO 22600 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-25 13:40:39.545  INFO 22600 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 13:40:39.553  INFO 22600 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-12-25 13:40:39.605  INFO 22600 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-25 13:40:39.605  INFO 22600 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 734 ms
+2018-12-25 13:40:39.758  INFO 22600 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 13:40:39.892  INFO 22600 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path ''
+2018-12-25 13:40:39.894  INFO 22600 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.227 seconds (JVM running for 3.014)
+2018-12-25 13:40:40.376  INFO 22600 --- [nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-25 13:40:40.376  INFO 22600 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-25 13:40:40.382  INFO 22600 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-12-25 13:40:50.277  INFO 22600 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) > test-compile @ demo >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/tran.van.cu/Documents/demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) < test-compile @ demo <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:run (default-cli) @ demo ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2018-12-25 13:41:17.327  INFO 22912 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication on framgia0392-pc with PID 22912 (/home/tran.van.cu/Documents/demo/target/classes started by FRAMGIA\tran.van.cu in /home/tran.van.cu/Documents/demo)
+2018-12-25 13:41:17.329  INFO 22912 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-12-25 13:41:18.080  INFO 22912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2018-12-25 13:41:18.097  INFO 22912 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-25 13:41:18.097  INFO 22912 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-25 13:41:18.106  INFO 22912 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-12-25 13:41:18.156  INFO 22912 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-25 13:41:18.156  INFO 22912 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 803 ms
+2018-12-25 13:41:18.307  INFO 22912 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-25 13:41:18.458  INFO 22912 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path ''
+2018-12-25 13:41:18.460  INFO 22912 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.304 seconds (JVM running for 3.083)
+2018-12-25 13:41:19.366  INFO 22912 --- [nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-25 13:41:19.367  INFO 22912 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-25 13:41:19.373  INFO 22912 --- [nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2018-12-25 13:42:14.776  INFO 22912 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
