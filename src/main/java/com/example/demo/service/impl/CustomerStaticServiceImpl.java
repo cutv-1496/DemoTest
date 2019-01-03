@@ -12,7 +12,7 @@ public class CustomerStaticServiceImpl{
     @Autowired
     private EntityManager entityManager;
 
-    public List<CustomerStatic> getCustomerStatic(String companyCode) {
+    public List<CustomerStatic> getCustomerStatic1(String companyCode) {
         List<Object[]> objects = entityManager.createNativeQuery("call anzen_core.company_static(?)").setParameter(1,companyCode).getResultList();
         return objects.stream().map(object -> {
             CustomerStatic customerStatic = new CustomerStatic();
