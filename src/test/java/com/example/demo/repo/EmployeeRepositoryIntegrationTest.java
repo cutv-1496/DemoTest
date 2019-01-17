@@ -32,7 +32,7 @@ public class EmployeeRepositoryIntegrationTest {
         Employee found = employeeRepository.findByName(alex.getName());
 
         // then
-        assertThat(found.getName(), is(alex.getName()));
+        assertThat(found.getName(), is(alex.getName()+"y"));
     }
 
 }
