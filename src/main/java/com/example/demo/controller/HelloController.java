@@ -24,5 +24,8 @@ public class HelloController {
     public HttpEntity<String> test( @RequestBody Employee employee) {
         LOGGER.info("body in controller:"+ employee);
         return ResponseEntity.ok(employee.getName());
+
+
+
     }
 }
