@@ -23,7 +23,7 @@
 				<pattern>
 					<pattern>
 						{
-						"serviceName": "ex-chatwork-service"
+						"serviceName": "testDemo"
 						}
 					</pattern>
 				</pattern>
